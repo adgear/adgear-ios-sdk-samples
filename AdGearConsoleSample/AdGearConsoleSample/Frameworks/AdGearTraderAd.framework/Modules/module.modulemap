@@ -1,0 +1,6 @@
+framework module AdGearTraderAd {
+  umbrella header "AdGearTraderAd.h"
+
+  export *
+  module * { export * }
+}

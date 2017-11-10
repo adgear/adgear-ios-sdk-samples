@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+@import AdGearSpotView;
+
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet AGSpotView *spotView;
 
 @end
 
@@ -16,7 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [AGConsoleAdFactory makeSpotViewAdWithSpotId:@"10746221" params:nil completion:^(AGSpotViewAd *spotViewAd, NSError *error) {
+        if (error != nil) {
+            NSLog(@"Error: %@", error);
+            return;
+        }
+        [self.spotView loadAd:spotViewAd];
+    }];
 }
 
 
