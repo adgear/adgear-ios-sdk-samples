@@ -1,0 +1,6 @@
+framework module AdGearConsoleAd {
+  umbrella header "AdGearConsoleAd.h"
+
+  export *
+  module * { export * }
+}

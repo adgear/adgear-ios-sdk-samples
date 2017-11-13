@@ -1,0 +1,6 @@
+framework module AdGearSpotView {
+  umbrella header "AdGearSpotView.h"
+
+  export *
+  module * { export * }
+}

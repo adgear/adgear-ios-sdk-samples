@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MAx-h2-0OY">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Load Ad" id="Ldu-wr-uIX">
+                                        <connections>
+                                            <action selector="loadTraderAd:" destination="BYZ-38-t0r" id="GS1-d4-a70"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Add Device" id="Qae-bv-F2S">
+                                        <connections>
+                                            <action selector="addDeviceToTraderSegment:" destination="BYZ-38-t0r" id="Vx4-AR-Dck"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Remove Device" id="Z28-RL-Da6">
+                                        <connections>
+                                            <action selector="removeDeviceFromTraderSegment:" destination="BYZ-38-t0r" id="Wbi-Zu-TVK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WlK-HO-i61" customClass="AGSpotView">
+                                <rect key="frame" x="37.5" y="208.5" width="300" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Zdz-4w-SfY"/>
+                                    <constraint firstAttribute="width" constant="300" id="j77-C0-1uv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MAx-h2-0OY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AnI-fa-c4e"/>
+                            <constraint firstItem="MAx-h2-0OY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FM0-Nd-w7k"/>
+                            <constraint firstItem="WlK-HO-i61" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eCT-7p-B0m"/>
+                            <constraint firstItem="WlK-HO-i61" firstAttribute="centerX" secondItem="MAx-h2-0OY" secondAttribute="centerX" id="nTT-ik-U9v"/>
+                            <constraint firstItem="WlK-HO-i61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z1I-95-stY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="spotView" destination="WlK-HO-i61" id="7XM-Ho-kDk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
