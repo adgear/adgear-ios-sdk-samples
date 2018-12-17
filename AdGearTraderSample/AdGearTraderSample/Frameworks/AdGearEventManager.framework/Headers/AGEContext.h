@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define kDefaultBaseUrl         @"https://d.adgear.com"
-#define kDefaultRtbxUrl         @"https://rtbx.adgrx.com/impressions"
+#define kDefaultRtbxUrl         @"https://rtbx.adgrx.com"
 #define kDefaultErThreshold     20
 
 @interface AGEContext : NSObject

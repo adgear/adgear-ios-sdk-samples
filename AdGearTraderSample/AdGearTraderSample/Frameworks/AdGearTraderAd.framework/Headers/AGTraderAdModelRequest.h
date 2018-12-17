@@ -13,6 +13,7 @@
 
 + (void)requestAdModelWithUrl:(NSURL *)url andCompletion:(void(^)(AGTraderAdModel *adModel, NSError *error))handler;
 
-+ (NSURL *)makeUrlForSiteTagId:(NSString *)siteTagId width:(int)width height:(int)height;
++ (NSURL *)makeUrlForSiteTagId:(NSString *)tagId width:(int)width height:(int)height;
++ (NSURL *)makeUrlForAppTagId:(NSString *)tagId width:(int)width height:(int)height;
 
 @end
