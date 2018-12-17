@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char MRAIDWKWebViewVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MRAIDWKWebView/PublicHeader.h>
 #import <AdGearMRAIDWebView/AGMraidView.h>
 #import <AdGearMRAIDWebView/AGMBuildConstants.h>
+#import <AdGearMRAIDWebView/AGRelatedWebViewManager.h>

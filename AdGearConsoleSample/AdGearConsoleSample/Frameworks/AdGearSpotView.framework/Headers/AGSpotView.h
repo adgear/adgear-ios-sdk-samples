@@ -40,8 +40,8 @@
 - (void)spotViewFailedToLoad:(nonnull AGSpotView *)spotView;
 
 // Register impression
-- (void)spotViewDidCallRegregisterImpression:(nonnull AGSpotView *)spotView;
-- (void)spotViewFailedToCallRegregisterImpression:(nonnull AGSpotView *)spotView;
+- (void)spotViewDidCallRegisterImpression:(nonnull AGSpotView *)spotView;
+- (void)spotViewFailedToCallRegisterImpression:(nonnull AGSpotView *)spotView;
 
 // Register event
 - (void)spotView:(nonnull AGSpotView *)spotView didCallRegisterEventWithName:(nullable NSString *)name andUrl:(nullable NSURL *)url;

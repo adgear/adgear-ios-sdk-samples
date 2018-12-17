@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4608B2C621C831AA00032415 /* AdGearSpotView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2C121C831AA00032415 /* AdGearSpotView.framework */; };
+		4608B2C821C831AF00032415 /* AdGearConsoleAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2BF21C831AA00032415 /* AdGearConsoleAd.framework */; };
+		4608B2C921C831AF00032415 /* AdGearConsoleAd.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2BF21C831AA00032415 /* AdGearConsoleAd.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4608B2CA21C831AF00032415 /* AdGearEventManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2BE21C831AA00032415 /* AdGearEventManager.framework */; };
+		4608B2CB21C831AF00032415 /* AdGearEventManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2BE21C831AA00032415 /* AdGearEventManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4608B2CC21C831AF00032415 /* AdGearMRAIDWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2C021C831AA00032415 /* AdGearMRAIDWebView.framework */; };
+		4608B2CD21C831AF00032415 /* AdGearMRAIDWebView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2C021C831AA00032415 /* AdGearMRAIDWebView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4608B2CF21C831AF00032415 /* AdGearSpotView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2C121C831AA00032415 /* AdGearSpotView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4608B2D021C831AF00032415 /* AdGearTraderAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2C221C831AA00032415 /* AdGearTraderAd.framework */; };
+		4608B2D121C831AF00032415 /* AdGearTraderAd.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4608B2C221C831AA00032415 /* AdGearTraderAd.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A697A25C1FB6301500E740DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A697A25B1FB6301500E740DD /* AppDelegate.m */; };
 		A697A25F1FB6301500E740DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A697A25E1FB6301500E740DD /* ViewController.m */; };
 		A697A2621FB6301500E740DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A697A2601FB6301500E740DD /* Main.storyboard */; };
 		A697A2641FB6301500E740DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A697A2631FB6301500E740DD /* Assets.xcassets */; };
 		A697A2671FB6301500E740DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A697A2651FB6301500E740DD /* LaunchScreen.storyboard */; };
 		A697A26A1FB6301500E740DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A697A2691FB6301500E740DD /* main.m */; };
-		A697A27B1FB6346900E740DD /* AdGearConsoleAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2731FB6345900E740DD /* AdGearConsoleAd.framework */; };
-		A697A27C1FB6346900E740DD /* AdGearConsoleAd.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2731FB6345900E740DD /* AdGearConsoleAd.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A697A27D1FB6346900E740DD /* AdGearEventManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2741FB6345A00E740DD /* AdGearEventManager.framework */; };
-		A697A27E1FB6346900E740DD /* AdGearEventManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2741FB6345A00E740DD /* AdGearEventManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A697A27F1FB6346900E740DD /* AdGearMRAIDWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2751FB6345A00E740DD /* AdGearMRAIDWebView.framework */; };
-		A697A2801FB6346900E740DD /* AdGearMRAIDWebView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2751FB6345A00E740DD /* AdGearMRAIDWebView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A697A2811FB6346900E740DD /* AdGearSpotView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2721FB6345900E740DD /* AdGearSpotView.framework */; };
-		A697A2821FB6346900E740DD /* AdGearSpotView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2721FB6345900E740DD /* AdGearSpotView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A697A2831FB6346900E740DD /* AdGearTraderAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2711FB6345900E740DD /* AdGearTraderAd.framework */; };
-		A697A2841FB6346900E740DD /* AdGearTraderAd.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A697A2711FB6345900E740DD /* AdGearTraderAd.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,11 +32,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A697A27C1FB6346900E740DD /* AdGearConsoleAd.framework in Embed Frameworks */,
-				A697A2821FB6346900E740DD /* AdGearSpotView.framework in Embed Frameworks */,
-				A697A27E1FB6346900E740DD /* AdGearEventManager.framework in Embed Frameworks */,
-				A697A2801FB6346900E740DD /* AdGearMRAIDWebView.framework in Embed Frameworks */,
-				A697A2841FB6346900E740DD /* AdGearTraderAd.framework in Embed Frameworks */,
+				4608B2C921C831AF00032415 /* AdGearConsoleAd.framework in Embed Frameworks */,
+				4608B2CF21C831AF00032415 /* AdGearSpotView.framework in Embed Frameworks */,
+				4608B2CB21C831AF00032415 /* AdGearEventManager.framework in Embed Frameworks */,
+				4608B2CD21C831AF00032415 /* AdGearMRAIDWebView.framework in Embed Frameworks */,
+				4608B2D121C831AF00032415 /* AdGearTraderAd.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +44,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4608B2BE21C831AA00032415 /* AdGearEventManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearEventManager.framework; sourceTree = "<group>"; };
+		4608B2BF21C831AA00032415 /* AdGearConsoleAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearConsoleAd.framework; sourceTree = "<group>"; };
+		4608B2C021C831AA00032415 /* AdGearMRAIDWebView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearMRAIDWebView.framework; sourceTree = "<group>"; };
+		4608B2C121C831AA00032415 /* AdGearSpotView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearSpotView.framework; sourceTree = "<group>"; };
+		4608B2C221C831AA00032415 /* AdGearTraderAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearTraderAd.framework; sourceTree = "<group>"; };
 		A697A2571FB6301500E740DD /* AdGearConsoleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdGearConsoleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A697A25A1FB6301500E740DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A697A25B1FB6301500E740DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,11 +59,6 @@
 		A697A2661FB6301500E740DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A697A2681FB6301500E740DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A697A2691FB6301500E740DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A697A2711FB6345900E740DD /* AdGearTraderAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearTraderAd.framework; sourceTree = "<group>"; };
-		A697A2721FB6345900E740DD /* AdGearSpotView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearSpotView.framework; sourceTree = "<group>"; };
-		A697A2731FB6345900E740DD /* AdGearConsoleAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearConsoleAd.framework; sourceTree = "<group>"; };
-		A697A2741FB6345A00E740DD /* AdGearEventManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearEventManager.framework; sourceTree = "<group>"; };
-		A697A2751FB6345A00E740DD /* AdGearMRAIDWebView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGearMRAIDWebView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A697A27B1FB6346900E740DD /* AdGearConsoleAd.framework in Frameworks */,
-				A697A2811FB6346900E740DD /* AdGearSpotView.framework in Frameworks */,
-				A697A27D1FB6346900E740DD /* AdGearEventManager.framework in Frameworks */,
-				A697A27F1FB6346900E740DD /* AdGearMRAIDWebView.framework in Frameworks */,
-				A697A2831FB6346900E740DD /* AdGearTraderAd.framework in Frameworks */,
+				4608B2C821C831AF00032415 /* AdGearConsoleAd.framework in Frameworks */,
+				4608B2CC21C831AF00032415 /* AdGearMRAIDWebView.framework in Frameworks */,
+				4608B2CA21C831AF00032415 /* AdGearEventManager.framework in Frameworks */,
+				4608B2C621C831AA00032415 /* AdGearSpotView.framework in Frameworks */,
+				4608B2D021C831AF00032415 /* AdGearTraderAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,11 +113,11 @@
 		A697A2701FB6344B00E740DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A697A2731FB6345900E740DD /* AdGearConsoleAd.framework */,
-				A697A2741FB6345A00E740DD /* AdGearEventManager.framework */,
-				A697A2751FB6345A00E740DD /* AdGearMRAIDWebView.framework */,
-				A697A2721FB6345900E740DD /* AdGearSpotView.framework */,
-				A697A2711FB6345900E740DD /* AdGearTraderAd.framework */,
+				4608B2BF21C831AA00032415 /* AdGearConsoleAd.framework */,
+				4608B2BE21C831AA00032415 /* AdGearEventManager.framework */,
+				4608B2C021C831AA00032415 /* AdGearMRAIDWebView.framework */,
+				4608B2C121C831AA00032415 /* AdGearSpotView.framework */,
+				4608B2C221C831AA00032415 /* AdGearTraderAd.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
